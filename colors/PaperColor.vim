@@ -1638,23 +1638,23 @@ fun! s:apply_syntax_highlightings()
   exec 'hi typescriptDecorators' . s:fg_orange
   exec 'hi typescriptLabel' . s:fg_purple . s:ft_bold
   " Added by me @sambehrens
-  exec 'hi typeScriptReserved' . s:fg_navy
-  exec 'hi typeScriptFuncKeyword' . s:fg_navy
-  exec 'hi typeScriptIdentifier' . s:fg_blue
-  exec 'hi typeScriptBraces' . s:fg_foreground
-  exec 'hi typeScriptEndColons' . s:fg_foreground
-  exec 'hi typeScriptDOMObjects' . s:fg_purple . s:ft_bold
-  exec 'hi typeScriptAjaxMethods' . s:fg_purple . s:ft_bold
-  exec 'hi typeScriptLogicSymbols' . s:fg_foreground
-  exec 'hi typeScriptDocSeeTag' . s:fg_olive . s:ft_bold
-  exec 'hi typeScriptDocParam' . s:fg_olive . s:ft_bold
-  exec 'hi typeScriptDocTags' . s:fg_olive . s:ft_bold
-  exec 'hi typeScriptGlobalObjects' . s:fg_purple
-  exec 'hi typeScriptParens' . s:fg_blue
-  exec 'hi typeScriptOpSymbols' . s:fg_foreground
-  exec 'hi typeScriptHtmlElemProperties' . s:fg_orange
-  exec 'hi typeScriptNull' . s:fg_comment . s:ft_bold
-  exec 'hi typeScriptInterpolationDelimiter' . s:fg_comment
+  exec 'hi typescriptReserved' . s:fg_navy
+  exec 'hi typescriptFuncKeyword' . s:fg_navy
+  exec 'hi typescriptIdentifier' . s:fg_blue
+  exec 'hi typescriptBraces' . s:fg_foreground
+  exec 'hi typescriptEndColons' . s:fg_foreground
+  exec 'hi typescriptDOMObjects' . s:fg_purple . s:ft_bold
+  exec 'hi typescriptAjaxMethods' . s:fg_purple . s:ft_bold
+  exec 'hi typescriptLogicSymbols' . s:fg_foreground
+  exec 'hi typescriptDocSeeTag' . s:fg_olive . s:ft_bold
+  exec 'hi typescriptDocParam' . s:fg_olive . s:ft_bold
+  exec 'hi typescriptDocTags' . s:fg_olive . s:ft_bold
+  exec 'hi typescriptGlobalObjects' . s:fg_purple
+  exec 'hi typescriptParens' . s:fg_blue
+  exec 'hi typescriptOpSymbols' . s:fg_foreground
+  exec 'hi typescriptHtmlElemProperties' . s:fg_orange
+  exec 'hi typescriptNull' . s:fg_comment . s:ft_bold
+  exec 'hi typescriptInterpolationDelimiter' . s:fg_comment
 
   " @target https://github.com/pangloss/vim-javascript
   exec 'hi jsImport' . s:fg_pink . s:ft_bold
