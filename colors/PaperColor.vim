@@ -1652,7 +1652,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi typeScriptGlobalObjects' . s:fg_purple
   exec 'hi typeScriptParens' . s:fg_blue
   exec 'hi typeScriptOpSymbols' . s:fg_foreground
-  exec 'hi typeScriptHtmlElemProperties' .
+  exec 'hi typeScriptHtmlElemProperties' . s:fg_orange
   exec 'hi typeScriptNull' . s:fg_comment . s:ft_bold
   exec 'hi typeScriptInterpolationDelimiter' . s:fg_comment
 
