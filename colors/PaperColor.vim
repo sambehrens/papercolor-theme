@@ -1637,6 +1637,25 @@ fun! s:apply_syntax_highlightings()
   " TypeScript Highlighting
   exec 'hi typescriptDecorators' . s:fg_orange
   exec 'hi typescriptLabel' . s:fg_purple . s:ft_bold
+  " Added by me @sambehrens
+  exec 'typeScriptReserved' . s:fg_navy
+  " exec 'hi typeScriptLabel' .
+  " exec 'hi typeScriptFuncKeyword' .
+  " exec 'hi typeScriptIdentifier' .
+  " exec 'hi typeScriptBraces' .
+  " exec 'hi typeScriptEndColons' .
+  " exec 'hi typeScriptDOMObjects' .
+  " exec 'hi typeScriptAjaxMethods' .
+  " exec 'hi typeScriptLogicSymbols' .
+  " exec 'hi typeScriptDocSeeTag' .
+  " exec 'hi typeScriptDocParam' .
+  " exec 'hi typeScriptDocTags' .
+  exec 'hi typeScriptGlobalObjects' . s:fg_foreground
+  exec 'hi typeScriptParens' . s:fg_blue
+  " exec 'hi typeScriptOpSymbols' .
+  " exec 'hi typeScriptHtmlElemProperties' .
+  exec 'hi typeScriptNull' . s:fg_comment . s:ft_bold
+  " exec 'hi typeScriptInterpolationDelimiter' .
 
   " @target https://github.com/pangloss/vim-javascript
   exec 'hi jsImport' . s:fg_pink . s:ft_bold
